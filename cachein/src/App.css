@@ -1,0 +1,37 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.header_One {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 75px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputs input {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.inputs button {
+  width: 300px;
+  height: 50px;
+  margin-top: 15px;
+}
+
+.inputs button:hover {
+  cursor: pointer;
+}
